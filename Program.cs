@@ -1,10 +1,15 @@
-﻿namespace IMAT_GitTest
+﻿public int Add(int x, int y)
+{
+    return x+y
+}
+
+namespace IMAT_GitTest
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(Add(2,8));
         }
     }
 }
