@@ -4,8 +4,12 @@
 }
 public int Add(int x, int y)
 {
-    Console.WriteLine(Multiply(2, 3));
     return x+y   
+}
+
+public double Divide(int x, int y)
+{
+    return x / y;
 }
 
 namespace IMAT_GitTest
@@ -14,7 +18,7 @@ namespace IMAT_GitTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(2,8));
+            Console.WriteLine(Divide(2,3));
         }
     }
 }
