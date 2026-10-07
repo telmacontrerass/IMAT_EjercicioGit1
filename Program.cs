@@ -21,4 +21,3 @@ namespace IMAT_GitTest
             Console.WriteLine(Divide(2,3));
         }
     }
-}
