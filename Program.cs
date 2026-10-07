@@ -9,7 +9,7 @@ public int Add(int x, int y)
 
 public double Divide(int x, int y)
 {
-    if (y == 0) { Console.WriteLine("Error al dividir entre 0");}
+    if (y == 0) { Console.WriteLine("Error al dividir entre 0, elija otro número");}
     else { return x / y; }
 }
 
